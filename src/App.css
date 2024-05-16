@@ -1,0 +1,163 @@
+.navbar {
+    background-color: #333;
+    width: 100%;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 100px; /* Adjust padding as needed */
+  }
+  
+  .navbar-link:hover {
+    background-color: antiquewhite;
+  }
+  
+
+
+
+
+
+
+.table{
+    border: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: yellow;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .fixed-table-container{
+    padding-top: 200px;
+    position: relative;
+  
+  }
+  
+  .tablescroll{
+    position: relative;
+  }
+  
+  table {
+    width: 100%;
+    position: relative;
+    margin-top: 500px; 
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  th, td {
+    border: 1px solid yellow;
+    padding: 8px;
+    text-align: center;
+  }
+  thead,
+  tr>th {
+    position: sticky;
+  }
+  
+  thead{
+    top: 0;
+    z-index: 2;
+  }
+  tr>th{
+    left: 0;
+    z-index: 1;
+  }
+  
+  th {
+    background-color: yellow;
+    color: black;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #333;
+  }
+  
+  tbody tr {
+    background-color: black;
+    color: yellow;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid yellow;
+    border-radius: 10px;
+  }
+  
+  label {
+    margin: 10px 0 5px 0;
+    color: yellow;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid yellow;
+    background-color: black;
+    color: white;
+  }
+  
+  form button {
+    background-color: yellow;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: black;
+  }
+  
+  form button:hover {
+    background-color: green;
+  }
+  
